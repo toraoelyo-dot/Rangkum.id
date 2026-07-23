@@ -1,0 +1,15 @@
+flask
+transformers
+torch
+spacy
+keybert
+sentence-transformers
+PyPDF2
+python-docx
+nltk
+scikit-learn
+wordcloud
+matplotlib
+textblob
+vaderSentiment
+deep-translator

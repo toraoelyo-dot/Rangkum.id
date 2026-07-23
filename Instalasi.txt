@@ -1,0 +1,15 @@
+cd path\ke\folder\rangkum.id
+
+python -m venv .venv
+
+.venv\Scripts\activate.bat
+
+python -m pip install --upgrade pip
+
+pip install -r requirements.txt
+
+python -m spacy download xx_ent_wiki_sm
+
+python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('vader_lexicon')"
+
+python app.py
