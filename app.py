@@ -340,5 +340,8 @@ def analyze_text():
 # RUN APP
 # ==========================
 
-if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False)
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)
